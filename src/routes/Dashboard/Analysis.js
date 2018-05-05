@@ -240,7 +240,7 @@ export default class Analysis extends Component {
       sm: 12,
       md: 12,
       lg: 12,
-      xl: 6,
+      xl: 61,
       style: { marginBottom: 24 },
     };
 
