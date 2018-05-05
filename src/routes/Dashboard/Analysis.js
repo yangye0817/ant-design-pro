@@ -1,3 +1,4 @@
+/* @flow */
 import React, { Component, Fragment } from 'react';
 import { connect } from 'dva';
 import {
@@ -102,7 +103,7 @@ export default class Analysis extends Component {
     });
   };
 
-  isActive(type) {
+  isActive(type:string) {
     const { rangePickerValue } = this.state;
     const value = getTimeDistance(type);
     if (!rangePickerValue[0] || !rangePickerValue[1]) {
