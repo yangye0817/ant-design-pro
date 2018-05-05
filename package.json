@@ -91,7 +91,8 @@
       "git add"
     ],
     "**/*.{js,jsx}": "lint-staged:js",
-    "**/*.less": "stylelint --syntax less"
+    "**/*.less": "stylelint --syntax less",
+    "**/*.{js,jsx}": "yarn run flow check"
   },
   "engines": {
     "node": ">=8.0.0"

@@ -14,7 +14,7 @@
     "function-max-empty-lines": null,
     "function-whitespace-after": null,
     "number-leading-zero": null,
-    "number-no-trailing-zeros": true,
+    "number-no-trailing-zeros": null,
     "rule-empty-line-before": null,
     "selector-combinator-space-after": null,
     "selector-descendant-combinator-no-non-space": null,
