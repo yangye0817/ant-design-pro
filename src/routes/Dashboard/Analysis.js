@@ -70,7 +70,7 @@ export default class Analysis extends Component {
     });
   }
 
-  handleChangeSalesType = e => {
+  handleChangeSalesType = (e) => {
     this.setState({
       salesType: e.target.value,
     });
@@ -240,7 +240,7 @@ export default class Analysis extends Component {
       sm: 12,
       md: 12,
       lg: 12,
-      xl: 61,
+      xl: 6,
       style: { marginBottom: 24 },
     };
 
